@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(244, 248, 249);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#tweetDiv {
+    background:rgb(255, 255, 255);
+    border-color: rgb(225, 232, 237);
+}
