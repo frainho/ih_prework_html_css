@@ -6,4 +6,38 @@ body {
 #tweetDiv {
     background:rgb(255, 255, 255);
     border-color: rgb(225, 232, 237);
+    width: 500px;
+    height: 140px;
+    border-radius: 10px;
+    border: solid 1px rgb(225, 232, 237);
+    padding: 20px;
+}
+
+#tweetFooter {
+    color: rgb(105, 120, 130);
+}
+
+img {
+    transform:scale(0.75);
+}
+
+.tweetHeadPic {
+    float: left;
+}
+
+.tweetHeadText {
+    float: left;
+}
+
+#followDiv{
+    border: solid 2px rgb(85, 172, 238);
+    float: right;
+    color: rgb(85, 172, 238);
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    border-radius: 3px;
+}
+
+#followDiv p {
+    
 }
