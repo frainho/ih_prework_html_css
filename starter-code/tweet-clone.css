@@ -1,9 +1,9 @@
-body {
+body{
     background-color: rgb(244, 248, 249);
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#tweetDiv {
+#tweetDiv{
     background:rgb(255, 255, 255);
     border-color: rgb(225, 232, 237);
     width: 500px;
@@ -13,20 +13,37 @@ body {
     padding: 20px;
 }
 
-#tweetFooter {
+#tweetFooter{
     color: rgb(105, 120, 130);
 }
 
 img {
-    transform:scale(0.75);
+    transform:scale(0.7);
 }
 
-.tweetHeadPic {
+.usernameText{
+    position: relative;
+    bottom: 6px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.usernameID{
+    color: rgb(104, 109, 129);
+    font-size: 18px;
+}
+
+.tweetHeadPic{
+    float: left;
+    padding-right:5px;
+}
+
+.tweetHeadText{
     float: left;
 }
 
-.tweetHeadText {
-    float: left;
+.clearDiv{
+    clear:both;
 }
 
 #followDiv{
@@ -38,6 +55,7 @@ img {
     border-radius: 3px;
 }
 
-#followDiv p {
-    
+#followDiv:p{
+    position: relative;
+    bottom: 10px;
 }
