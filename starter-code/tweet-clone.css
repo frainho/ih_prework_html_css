@@ -5,7 +5,6 @@ body{
 
 #tweetDiv{
     background:rgb(255, 255, 255);
-    border-color: rgb(225, 232, 237);
     width: 500px;
     height: 140px;
     border-radius: 5px;
@@ -26,11 +25,14 @@ img {
     bottom: 6px;
     font-weight: bold;
     font-size: 22px;
+    color: rgb(0, 0, 0);
 }
 
 .usernameID{
     color: rgb(104, 109, 129);
     font-size: 18px;
+    position: relative;
+    bottom: 5px;
 }
 
 .tweetHeadPic{
@@ -51,7 +53,7 @@ img {
 }
 
 .followWrapper {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 button {
@@ -92,6 +94,7 @@ button>p{
 
 #tweetFooter>img {
     transform:scale(0.5);
+    color: rgb(101, 116, 127);
 }
 
 .rfCount {
