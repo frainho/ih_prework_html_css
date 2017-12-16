@@ -1,10 +1,10 @@
-body{
+body {
     background-color: rgb(244, 248, 249);
     font-family: Helvetica, Arial, sans-serif;
 }
 
-#tweetDiv{
-    background:rgb(255, 255, 255);
+#tweetDiv {
+    background: rgb(255, 255, 255);
     width: 500px;
     height: 140px;
     border-radius: 5px;
@@ -12,15 +12,15 @@ body{
     padding: 15px;
 }
 
-#tweetFooter{
+#tweetFooter {
     color: rgb(105, 120, 130);
 }
 
 img {
-    transform:scale(0.7);
+    transform: scale(0.7);
 }
 
-.usernameText{
+.usernameText {
     position: relative;
     bottom: 6px;
     font-weight: bold;
@@ -28,24 +28,24 @@ img {
     color: rgb(0, 0, 0);
 }
 
-.usernameID{
+.usernameID {
     color: rgb(104, 109, 129);
     font-size: 18px;
     position: relative;
     bottom: 5px;
 }
 
-.tweetHeadPic{
+.tweetHeadPic {
     float: left;
-    padding-right:5px;
+    padding-right: 5px;
 }
 
-.tweetHeadText{
+.tweetHeadText {
     float: left;
 }
 
-.clearDiv{
-    clear:both;
+.clearDiv {
+    clear: both;
 }
 
 .tweetHeadText {
@@ -66,14 +66,14 @@ button {
     float: right;
 }
 
-button>p{
+button>p {
     font-size: 16px;
-    margin:0;
+    margin: 0;
     float: right;
     padding-top: 4px;
 }
 
-#tweetBody{
+#tweetBody {
     padding-left: 11px;
 }
 
@@ -88,17 +88,17 @@ button>p{
 }
 
 .icon {
-    position:relative;
+    position: relative;
     right: 7px;
 }
 
 #tweetFooter>img {
-    transform:scale(0.5);
+    transform: scale(0.5);
     color: rgb(101, 116, 127);
 }
 
 .rfCount {
-    position:relative;
+    position: relative;
     bottom: 6px;
     right: 13px;
 }
